@@ -4,7 +4,7 @@
 # https://github.com/coderjoe/dockerfile-ruby-install
 #
 FROM ubuntu:14.04
-MAINTAINER Joseph Bauser
+MAINTAINER Joseph Bauser <coderjoe@coderjoe.net>
 
 RUN apt-get update && apt-get install -y curl make build-essential
 
